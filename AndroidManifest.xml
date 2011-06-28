@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.SRS6" android:versionCode="1" android:versionName="1.0">
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+	<application android:icon="@drawable/icon" android:label="@string/app_name">
+		<activity android:name=".SRS6" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name=".LoginNew" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				
+			</intent-filter>
+		</activity>
+		<activity android:name=".questiondemo" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				
+			</intent-filter>
+		</activity>
+
+		<activity android:name=".result" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				
+			</intent-filter>
+		</activity>
+		<activity android:name=".DataBaseHelper" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				
+			</intent-filter>
+		</activity>
+		<activity android:name=".selectquiz" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				
+			</intent-filter>
+		</activity>
+		<activity android:name=".splashscreeen" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				
+			</intent-filter>
+		</activity>
+		<activity android:name=".sturegister" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				
+			</intent-filter>
+		</activity>
+		
+		<activity android:name=".studentreport2" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				
+			</intent-filter>
+		</activity>
+		<activity android:name=".studentreport1" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				
+			</intent-filter>
+		</activity>
+		
+		<activity android:name=".reportscreen" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				
+			</intent-filter>
+		</activity>
+		<activity android:name=".study" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				
+			</intent-filter>
+		</activity>
+		<activity android:name=".profile" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				
+			</intent-filter>
+		</activity>
+		<activity android:name=".mainprofile" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				
+			</intent-filter>
+		</activity>
+
+		<activity android:name=".teachtestreport" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				
+			</intent-filter>
+		</activity>
+		<activity android:name=".mainstudentreview" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				
+			</intent-filter>
+		</activity>
+		<activity android:name=".stuavgpercegraph" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				
+			</intent-filter>
+		</activity>
+		<activity android:name=".teachstudentwisereport" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				
+			</intent-filter>
+		</activity>
+		<activity android:name=".mailbox" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				
+			</intent-filter>
+		</activity>
+		<activity android:name=".teacherprofile" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				
+			</intent-filter>
+		</activity>
+		<activity android:name=".reward" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				
+			</intent-filter>
+		</activity>
+		
+		<activity android:name=".FunAssignPoint" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				
+			</intent-filter>
+		</activity>
+		<activity android:name=".reward_main_screen" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				
+			</intent-filter>
+		</activity>
+		
+		<activity android:name=".addtest_byprofessor" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				
+			</intent-filter>
+		</activity>
+		
+
+
+	</application>
+</manifest>

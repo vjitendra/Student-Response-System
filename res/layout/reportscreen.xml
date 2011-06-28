@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android" 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:background="#FFFFFFFF"
+		>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/linearid" android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="#FFFFFFFF">
+
+	<TextView android:id="@+id/welcome" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:paddingLeft="120px"
+		android:textColor="#000000" android:text="WELCOME" />
+		<TableLayout android:id="@+id/tbl3" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:stretchColumns="*">
+		<TableRow>
+			<TextView android:text="">
+			</TextView>
+
+
+			<Button android:id="@+id/bk1" android:layout_width="30px" android:layout_marginLeft="160px" 
+				android:layout_height="wrap_content" android:text="Back" />
+		</TableRow>
+
+	</TableLayout>
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/info_table" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_marginTop="50px"
+		android:layout_marginLeft="30px" android:paddingLeft="5px"
+		android:paddingTop="10px">
+		<TableRow>
+			<TextView android:id="@+id/option" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textSize="10px"
+				android:textColor="#000000" android:text="" />
+
+			<RadioGroup android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:orientation="vertical"
+				android:id="@+id/Group1">
+				<RadioButton android:id="@+id/rad1" android:text="Review Ordered By Test"
+					android:layout_width="300px" android:layout_height="wrap_content"
+					android:textColor="#000000" android:textSize="10px">
+				</RadioButton>
+				<RadioButton android:id="@+id/rad2" android:text="Review Ordered By Student"
+					android:layout_width="300px" android:textSize="10px"
+					android:textColor="#000000" android:layout_height="wrap_content"></RadioButton>
+				<!--
+					<RadioButton android:id="@+id/rad3" android:text="Review Ordered By
+					Question" android:layout_width="300px" android:textSize="10px"
+					android:textColor="#000000"
+					android:layout_height="wrap_content"></RadioButton>
+				-->
+			</RadioGroup>
+		</TableRow>
+	</TableLayout>
+</LinearLayout>
+</ScrollView>

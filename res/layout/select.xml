@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android" 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:background="#FFFFFFFF"
+		>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#FFFFFF">
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_marginLeft="130px"
+		android:textColor="#000000" android:text="WELCOME" />
+
+	<TextView android:id="@+id/stuwel" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_marginTop="50px"
+		android:layout_marginLeft="30px" android:textColor="#000000"
+		android:text="" />
+	<Button android:id="@+id/logout" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_marginLeft="250px"
+		android:text="Logout" />
+
+	<!--<ImageView android:id="@+id/stu" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:paddingLeft="70px"
+		android:paddingTop="40px" android:src="@drawable/stu">
+	</ImageView>
+
+	--><TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/info_table" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:paddingLeft="5px"
+		android:paddingTop="10px">
+		<TableRow>
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="" />
+
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="" />
+		</TableRow>
+		<TableRow>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textColor="#000000"
+				android:text="Select Test :" />
+
+			<Spinner android:id="@+id/sp1" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+		</TableRow>
+		<TableRow>
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="" />
+
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="" />
+		</TableRow>
+		<TableRow>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="" />
+			<Button android:id="@+id/dnld" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="Download" />
+		</TableRow>
+	</TableLayout>
+</LinearLayout>
+</ScrollView>

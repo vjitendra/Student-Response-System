@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+		xmlns:android="http://schemas.android.com/apk/res/android" 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:background="#FFFFFFFF">
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+    android:background="#FFFFFFFF">
+	<TextView 
+	android:id="@+id/title" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:textStyle="bold"
+	android:layout_marginLeft="150px" 
+	android:textColor="#000000" 
+	android:text="Rewards" />
+	
+<TableLayout 
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/summary" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:paddingLeft="5px" 
+		android:layout_marginTop="20px"	
+		android:paddingTop="10px">	
+		
+		<TableRow>
+		
+		
+		<TextView 
+	android:id="@+id/total_balance" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:textStyle="bold"
+	android:textColor="#000000" 
+	android:text="" />
+	
+	<ImageView 
+	android:id="@+id/total_balance_img" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:src="@drawable/next_btn7"
+	android:layout_marginLeft="250px"/>
+		
+	</TableRow>	
+	
+	<TableRow>
+		
+		
+		<TextView 
+	android:id="@+id/total_balance" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:textStyle="bold"
+	android:textColor="#000000" 
+	android:text="" />
+	
+	<ImageView 
+	android:id="@+id/total_balance_img" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:src="@drawable/next_btn7"
+	android:layout_marginLeft="250px"/>
+		
+	</TableRow>	
+	
+	<TableRow>
+		
+		
+		<TextView 
+	android:id="@+id/avail_balance" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:textStyle="bold"
+	android:textColor="#000000" 
+	android:text="" />
+	
+	<ImageView 
+	android:id="@+id/total_balance_img" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:src="@drawable/next_btn7"
+	android:layout_marginLeft="250px"/>
+		
+	</TableRow>	
+	
+	<TableRow>
+		
+		
+		<TextView 
+	android:id="@+id/used_point" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:textStyle="bold"
+	android:textColor="#000000" 
+	android:text="" />
+	
+	<ImageView 
+	android:id="@+id/total_balance_img" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:src="@drawable/next_btn7"
+	android:layout_marginLeft="250px"/>
+		
+	</TableRow>	
+	
+	<TableRow>
+		
+		
+		<TextView 
+	android:id="@+id/earned_point" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:textStyle="bold"
+	android:textColor="#000000" 
+	android:text="" />
+	
+	<ImageView 
+	android:id="@+id/total_balance_img" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:src="@drawable/next_btn7"
+	android:layout_marginLeft="250px"/>
+		
+	</TableRow>	
+	
+	<TableRow>
+		
+		
+		<TextView 
+	android:id="@+id/redim_point" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:textStyle="bold"
+	android:textColor="#000000" 
+	android:text="" />
+	
+	<ImageView 
+	android:id="@+id/total_balance_img" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:src="@drawable/next_btn7"
+	android:layout_marginLeft="250px"/>
+		
+	</TableRow>	
+</TableLayout> 
+	
+	
+				
+</LinearLayout>
+</ScrollView>
+	
+	

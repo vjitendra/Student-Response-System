@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android" 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:background="#FFFFFFFF"
+		>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#FFFFFFFF">
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_marginLeft="150px"
+		android:textColor="#000000" android:text="Student Registration" />
+
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/info_table" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:paddingLeft="5px"
+		android:paddingTop="10px">
+		<TableRow>
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:textColor="#000000"
+				android:text="First Name :" />
+
+			<EditText android:layout_height="50px" android:id="@+id/fname"
+				android:layout_width="180px" />
+		</TableRow>
+
+		<TableRow>
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:textColor="#000000"
+				android:text="Last Name :" />
+
+			<EditText android:layout_height="50px" android:id="@+id/lname"
+				android:layout_width="180px" />
+		</TableRow>
+		<TableRow>
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:textColor="#000000"
+				android:text="Subject :" />
+
+			<EditText android:layout_height="50px" android:id="@+id/sub"
+				android:layout_width="190px" />
+		</TableRow>
+		<TableRow>
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:textColor="#000000"
+				android:text="Date Of Birth:" />
+
+			<EditText android:layout_height="50px" android:id="@+id/dob"
+				android:layout_width="180px" />
+
+			<Button android:id="@+id/dt" android:layout_height="50px"
+				android:layout_width="wrap_content" android:text="Pick Date" />
+		</TableRow>
+		<TableRow>
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:textColor="#000000"
+				android:text="Email Id:" />
+
+			<EditText android:layout_height="50px" android:id="@+id/eid"
+				android:layout_width="180px" />
+		</TableRow>
+		<TableRow>
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:textColor="#000000"
+				android:text="Passward :" />
+
+			<EditText android:id="@+id/pwd" android:layout_width="180px"
+				android:layout_height="50px" android:password="true" />
+		</TableRow>
+		<TableRow>
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:textColor="#000000"
+				android:text="Confirm Passward :" />
+
+			<EditText android:id="@+id/cpwd" android:layout_width="180px"
+				android:layout_height="50px" android:password="true" />
+		</TableRow>
+		<TableRow>
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="" />
+
+			<Button android:id="@+id/reg" android:layout_height="50px"
+				android:layout_width="wrap_content" android:text="Register" />
+		</TableRow>
+
+	</TableLayout>
+</LinearLayout>
+</ScrollView>
+

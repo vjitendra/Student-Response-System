@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android" 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:background="#FFFFFFFF"
+		>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#FFFFFFFF">
+	<TextView android:id="@+id/newreward" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textStyle="bold"
+				android:layout_marginLeft="150px" android:textColor="#000000" android:text="Rewards" />
+				
+				
+				
+<TextView android:id="@+id/wels" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textColor="#000000" android:textStyle="bold"
+				android:layout_marginLeft="10px" />	 				
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="wrap_content" android:background="#CCCCCC"> 
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/main_table" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:paddingLeft="10px" 
+		android:layout_marginTop="20px"	android:layout_marginBottom="20px" >
+				<TableRow>
+			<TextView android:id="@+id/newrewards" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textStyle="bold"
+				android:layout_marginLeft="5px" android:textColor="#000000" android:text="Assign Reward" />
+				<TextView android:id="@+id/otheroption" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textStyle="bold"
+				android:layout_marginLeft="55px" android:textColor="#000000" android:text="Other Options" />
+			</TableRow>
+				<TableRow>
+			<TextView android:id="@+id/earned" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textStyle="bold"
+				android:layout_marginLeft="5px" android:textColor="#000000" android:text="Rewards Earned" />
+				<TextView android:id="@+id/balance" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textStyle="bold"
+				android:layout_marginLeft="55px" android:textColor="#000000" android:text="Rewards Balance" />
+				</TableRow>
+				<TableRow>
+			<TextView android:id="@+id/givento" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textStyle="bold" android:layout_marginLeft="5px"
+				android:textColor="#000000" android:text="Rewards Given" />
+			</TableRow>	
+			</TableLayout>
+			
+		</RelativeLayout>
+		<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/name_table" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:paddingLeft="5px" 
+		android:layout_marginTop="20px"	android:paddingTop="10px">	
+		
+		<TableRow>
+			<TextView android:id="@+id/name" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textStyle="bold" 
+				android:layout_marginLeft="10px" android:textColor="#000000" android:text="" />
+				
+				</TableRow>
+				</TableLayout>
+			<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/new_reward" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:paddingLeft="5px" 
+		android:layout_marginTop="20px"	android:paddingTop="10px">		
+		<TableRow>
+			<TextView android:id="@+id/to" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textStyle="bold" 
+				android:layout_marginLeft="10px" android:textColor="#000000" android:text="Select User Type" />
+				<Spinner android:id="@+id/user_type" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+				</TableRow>
+				<TableRow>
+			<TextView android:id="@+id/to" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textStyle="bold" 
+				android:layout_marginLeft="10px" android:textColor="#000000" android:text="Select course" />
+				<Spinner android:id="@+id/course" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" /> 
+				</TableRow>
+				<TableRow>
+			<TextView android:id="@+id/title" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textStyle="bold" 
+				android:layout_marginLeft="10px" android:textColor="#000000" android:text="Name" />
+				<Spinner android:id="@+id/user_name" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+				</TableRow>
+		<TableRow>
+			<TextView android:id="@+id/body" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textStyle="bold"
+				android:layout_marginLeft="10px" android:textColor="#000000" android:text="Reason For Reward" />
+				<Spinner android:id="@+id/reason_reward" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+		</TableRow>
+		<TableRow>
+			<TextView android:id="@+id/att" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textStyle="bold"
+				android:layout_marginLeft="10px" android:textColor="#000000" android:text="Reward Points" />
+				<EditText android:id="@+id/editpoint" android:layout_width="150px"
+				android:layout_height="wrap_content"/>
+			</TableRow>
+			</TableLayout>
+			<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/save_reward" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:paddingLeft="5px" 
+		android:layout_marginTop="20px"	android:paddingTop="10px">	
+		<TableRow>
+					<TextView android:id="@+id/from" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textStyle="bold"
+				android:layout_marginLeft="10px" />	 
+				<Button android:id="@+id/btnassign" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="Assign"/>
+		</TableRow> 
+	</TableLayout> 
+	
+	
+	
+	
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent" android:weightSum="100"
+	android:layout_height="fill_parent" android:background="#FFFFFFFF">
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/reward_given" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:paddingLeft="5px" 
+		android:layout_marginTop="20px"	android:layout_weight="50" android:paddingTop="10px">	
+		</TableLayout>
+		<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/reward_given1" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:paddingLeft="5px" 
+		android:layout_marginTop="20px"	android:layout_weight="50" android:paddingTop="10px">	
+		
+				</TableLayout>
+				</LinearLayout>
+				<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/addreason" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:paddingLeft="5px" 
+		android:layout_marginTop="20px"	android:paddingTop="10px">	
+				<TableRow>
+				<TextView  android:id="@+id/txtaddreason" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textStyle="bold" 
+				android:layout_marginLeft="10px" android:textColor="#000000" android:text="Add Reason" />
+				</TableRow>
+				<TableRow>
+				<TextView  android:id="@+id/txtassignpoints" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textStyle="bold" 
+				android:layout_marginLeft="10px" android:textColor="#000000" android:text="Assign Reward Points" />
+				 </TableRow>
+				
+				</TableLayout>
+				<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/givenrewarddetails" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:paddingLeft="5px" 
+		android:layout_marginTop="20px"	android:paddingTop="10px">	
+		<TableRow>
+		<TextView android:id="@+id/txdate" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textStyle="bold"
+				android:layout_marginLeft="10px" android:layout_marginTop="10px" 
+				android:textColor="#000000" android:text="Assigned By:" />
+				<TextView android:id="@+id/txtname1" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textStyle="bold"
+				android:layout_marginLeft="10px" android:layout_marginTop="20px" 
+				android:textColor="#000000" android:text="" />		
+</TableRow>
+			</TableLayout>
+			<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/givenrewarddetails1" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:paddingLeft="5px" 
+		android:layout_marginTop="20px"	android:paddingTop="10px">	
+		<TableRow>
+					<TextView android:id="@+id/from" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textStyle="bold"
+				android:layout_marginLeft="10px" />	 
+				<Button android:id="@+id/btnok" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="Back"/>
+		</TableRow> 
+	</TableLayout> 
+				<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/backtbl" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:paddingLeft="5px" 
+		android:layout_marginTop="20px"	android:paddingTop="10px">	
+		<TableRow>
+					<TextView android:id="@+id/from" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textStyle="bold"
+				android:layout_marginLeft="10px" />	 
+				<Button android:id="@+id/btnok" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="Back"/>
+		</TableRow> 
+	</TableLayout> 
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/backtbl1" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:paddingLeft="5px" 
+		android:layout_marginTop="20px"	android:paddingTop="10px">	
+		<TableRow>
+					<TextView android:id="@+id/from" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textStyle="bold"
+				android:layout_marginLeft="10px" />	 
+				<Button android:id="@+id/btnok1" android:layout_width="wrap_content"
+				android:layout_marginLeft="90px"
+				android:layout_height="wrap_content" android:text="Back"/>
+		</TableRow> 
+	</TableLayout> 
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/reward_earned" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:paddingLeft="5px" 
+		android:layout_marginTop="20px"	android:paddingTop="10px">	
+		
+		
+	</TableLayout> 
+	
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/totalpntsearned" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:paddingLeft="5px" 
+		android:layout_marginTop="20px"	android:paddingTop="10px">	
+		
+	</TableLayout> 
+	
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/redim" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:paddingLeft="5px" 
+		android:layout_marginTop="20px"	android:paddingTop="10px">	
+		
+		
+	</TableLayout>
+	
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/redimdetails" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:paddingLeft="5px" 
+		android:layout_marginTop="20px"	android:paddingTop="10px">	
+		
+		
+	</TableLayout>  
+	
+	
+				
+				</LinearLayout>
+				</ScrollView>
+	
+	

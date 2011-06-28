@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android" 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:background="#FFFFFFFF"
+		>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/linearid" android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="#FFFFFFFF">
+
+	<TextView android:id="@+id/welcome" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:paddingLeft="120px"
+		android:textColor="#000000" android:text="WELCOME" />
+		<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/info_table" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:paddingLeft="5px"
+		android:paddingTop="15px">
+		<TableRow>
+			<TextView android:id="@+id/tdate" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textSize="10px"
+				android:textColor="#000000" android:text="" />
+			<TextView android:id="@+id/timer" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textSize="10px"
+				android:text="" android:textColor="#000000" android:paddingLeft="40px" />
+
+		</TableRow>
+	</TableLayout>
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/info_table" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:paddingLeft="5px"
+		android:paddingTop="15px">
+		<TableRow>
+			<TextView android:id="@+id/quizno" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textSize="10px"
+				android:textColor="#000000" android:text="" />
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textSize="10px"
+				android:text="" android:textColor="#000000" android:paddingLeft="40px" />
+
+		</TableRow>
+	</TableLayout>
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/info_table" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:paddingLeft="5px"
+		android:paddingTop="10px" android:stretchColumns="1">
+
+		<TableRow>
+			<TextView android:id="@+id/queno" android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:textSize="10px"
+				android:textColor="#000000" android:text="Question No: " />
+			<TextView android:id="@+id/queno1" android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:textSize="10px"
+				android:textColor="#000000" android:paddingLeft="0px" />
+
+		</TableRow>
+	</TableLayout>
+
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/info_table" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:paddingLeft="5px"
+		android:paddingTop="10px" android:stretchColumns="1">
+		<TableRow>
+
+			<TextView android:id="@+id/que" android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:textSize="10px"
+				android:textColor="#000000" android:text="Question: " />
+
+			<TextView android:id="@+id/quena" android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:textSize="10px"
+				android:textColor="#000000" android:text="" />
+
+		</TableRow>
+	</TableLayout>
+
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/info_table" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:paddingLeft="5px"
+		android:paddingTop="10px">
+		<TableRow>
+			<TextView android:id="@+id/option" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textSize="10px"
+				android:textColor="#000000" android:text="Options:" />
+
+			<RadioGroup android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:orientation="vertical"
+				android:id="@+id/Group1">
+				<RadioButton android:id="@+id/rad1" android:text=""
+					android:layout_width="300px" android:layout_height="wrap_content"
+					android:textColor="#000000" android:textSize="10px">
+				</RadioButton>
+				<RadioButton android:id="@+id/rad2" android:text=""
+					android:layout_width="300px" android:textSize="10px"
+					android:textColor="#000000" android:layout_height="wrap_content"></RadioButton>
+				<RadioButton android:id="@+id/rad3" android:text=""
+					android:layout_width="300px" android:textSize="10px"
+					android:textColor="#000000" android:layout_height="wrap_content"></RadioButton>
+				<RadioButton android:id="@+id/rad4" android:text=""
+					android:layout_width="300px" android:textSize="10px"
+					android:textColor="#000000" android:layout_height="wrap_content"></RadioButton>
+
+			</RadioGroup>
+		</TableRow>
+	</TableLayout>
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/info_table" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:paddingLeft="5px"
+		android:paddingTop="10px">
+		<TableRow>
+			<ImageButton android:id="@+id/imagebutton" android:layout_width="100px"
+				android:layout_height="wrap_content" android:layout_marginLeft="40px"
+				android:src="@drawable/previ" />
+			<ImageButton android:id="@+id/ImageButton02" android:layout_width="100px"
+				android:layout_height="wrap_content" android:layout_marginLeft="40px"
+				android:src="@drawable/next"  />
+
+		</TableRow>
+	</TableLayout>
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/info_table" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:paddingLeft="5px"
+		android:paddingTop="10px">
+		<TableRow>
+			<ImageButton android:id="@+id/ImageButton03" android:layout_width="100px"
+				android:layout_height="wrap_content" android:layout_marginLeft="40px"
+				android:src="@drawable/skip"  />
+			<ImageButton android:id="@+id/ImageButton04" android:layout_width="100px"
+				android:layout_height="wrap_content" android:layout_marginLeft="40px"
+				android:src="@drawable/submit"  />
+		</TableRow>
+
+	</TableLayout>
+</LinearLayout>
+</ScrollView>

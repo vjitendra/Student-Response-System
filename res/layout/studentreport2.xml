@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android" 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:background="#FFFFFFFF"
+		>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<TextView 
+	android:id="@+id/welcome" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content" 
+	android:text="" />
+	<Button 
+	android:id="@+id/bck" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:layout_marginLeft="190px" 
+	android:text="Back"/>
+	<TableLayout
+	 android:id="@+id/tbl2"
+	 android:layout_width="wrap_content"
+     android:layout_height="wrap_content" 
+	 android:stretchColumns="*">
+		<TableRow>
+			<TextView android:text="">
+			</TextView>
+
+
+			<TextView android:text="">
+			</TextView>
+
+		</TableRow>
+
+	</TableLayout>
+	<TableLayout android:id="@+id/tbl1" android:layout_width="wrap_content"
+		android:layout_height="30px" android:stretchColumns="*"
+		android:background="#ffffff">
+		<TableRow>
+			<TextView android:text="Test name" android:textColor="#000000">
+			</TextView>
+			
+			<TextView android:text="                  Test date" android:textColor="#000000">
+			</TextView>
+
+			<TextView android:text="          Score" android:textColor="#000000">
+			</TextView>
+
+		</TableRow>
+
+	</TableLayout>
+
+	<TableLayout android:id="@+id/tbl" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:stretchColumns="*"
+		android:background="#ff0000">
+
+	</TableLayout>
+
+</LinearLayout>
+</ScrollView>

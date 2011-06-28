@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android" 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:background="#FFFFFFFF"
+		>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#FFFFFFFF">
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/mail_table1" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:paddingLeft="5px" 
+		android:layout_marginTop="20px"	android:paddingTop="10px">
+				<TableRow>
+			<TextView android:id="@+id/from" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textStyle="bold"
+				android:layout_marginLeft="10px" android:textColor="#000000" android:text="From" />
+				<TextView android:id="@+id/txtfrom" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textStyle="bold"
+				android:layout_marginLeft="10px" android:textColor="#000000" android:text="" />
+		</TableRow>
+		
+		<TableRow>
+			<TextView android:id="@+id/date" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textStyle="bold"
+				android:layout_marginLeft="10px" android:textColor="#000000" android:text="Date" />
+				<TextView android:id="@+id/txtdate" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textStyle="bold"
+				android:layout_marginLeft="10px" android:textColor="#000000" android:text="" />
+		</TableRow>
+		<TableRow>
+			<TextView android:id="@+id/to" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textStyle="bold" 
+				android:layout_marginLeft="10px" android:textColor="#000000" android:text="To" />
+				<TextView android:id="@+id/txtto" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textStyle="bold"
+				android:layout_marginLeft="10px" android:textColor="#000000" android:text="" />
+				</TableRow>
+				<TableRow>
+			<TextView android:id="@+id/title" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textStyle="bold" 
+				android:layout_marginLeft="10px" android:textColor="#000000" android:text="Subject" />
+				<TextView android:id="@+id/txttitle" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textStyle="bold"
+				android:layout_marginLeft="10px" android:textColor="#000000" android:text="" />
+				</TableRow>
+		<TableRow>
+			<TextView android:id="@+id/body" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textStyle="bold"
+				android:layout_marginLeft="10px" android:textColor="#000000" android:text="Body" />
+				<EditText android:id="@+id/editto" android:layout_width="150px"
+				android:layout_height="100px"/>
+		</TableRow>
+		<TableRow>
+					<!--<TextView android:id="@+id/from" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textStyle="bold"
+				android:layout_marginLeft="10px" />	 
+				--><Button android:id="@+id/btnback" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text=""/>
+		</TableRow> 
+	</TableLayout> 
+	
+	</LinearLayout>
+	</ScrollView>

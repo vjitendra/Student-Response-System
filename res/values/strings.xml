@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="hello">Hello World, SRS6!</string>
+	
+	<string name="app_name">SRS6</string>
+	
+	<string name="view"><u><b><i>View/Edit Profile</i></b></u></string> 
+	
+	<string name="review"><u><b><i>Review</i></b></u></string>
+	
+	<string name="mailbox"><u><b><i>MailBox</i></b></u></string> 
+	
+	<string name="requests"><u><b><i>Requests</i></b></u></string> 
+	
+	<string name="rewards"><u><b><i>Rewards</i></b></u></string> 
+	
+	<string name="event"><u><b><i>Events And Activity</i></b></u></string> 
+		
+	<string name="logout"><u><b><i>Logout</i></b></u></string> 
+	
+	<string-array name="ADMIN">
+        <item>professor</item>
+        <item>student</item>
+        <item>administrator</item>
+    </string-array>
+    <string-array name="PROFESSOR">
+        <item>professor</item>
+        <item>student</item> 
+    </string-array>
+    <string-array name="STUDENT">
+        <item>student</item>
+    </string-array>
+    
+    
+	
+	
+</resources>

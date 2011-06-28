@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:background="#FFFFFFFF"
+		>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:background="#FFFFFFFF">
+	
+	<TextView android:id="@+id/newreward" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:textStyle="bold"
+	android:layout_marginLeft="130px" 
+	android:textColor="#000000" 
+	android:text="Add Test" />
+	
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/main_table" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:paddingLeft="10px" 
+		android:layout_marginTop="20px"	
+		android:layout_marginBottom="20px" >
+		
+		<TableRow>
+		
+	<TextView 
+	android:id="@+id/txt_parent_unit" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:textStyle="bold"
+	android:layout_marginLeft="10px" 
+	android:textColor="#000000" 
+	android:text="Parent Unit" />
+	
+	<Spinner
+	android:id="@+id/spr_parent_unit" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content" 
+	android:text="Root Unit"
+	/>
+	</TableRow>
+	
+	<TableRow>
+		
+	<TextView 
+	android:id="@+id/txt_name" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:textStyle="bold"
+	android:layout_marginLeft="10px" 
+	android:textColor="#000000" 
+	android:text="Name" />
+	
+	<EditText
+	android:id="@+id/edt_name" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"/>
+	</TableRow>
+	
+	<TableRow>
+		
+	<TextView 
+	android:id="@+id/txt_duration_in_minute" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:textStyle="bold"
+	android:layout_marginLeft="10px" 
+	android:textColor="#000000" 
+	android:text="Duration in minute" />
+	
+	<EditText
+	android:id="@+id/edt_duration_in_minute" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"/>
+	</TableRow>
+	
+	<TableRow>
+		
+	<TextView 
+	android:id="@+id/txt_test_repitition" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:textStyle="bold"
+	android:layout_marginLeft="10px" 
+	android:textColor="#000000" 
+	android:text="Test Repitition" />
+	
+	<EditText
+	android:id="@+id/edt_test_repitition" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"/>
+	</TableRow>
+	
+	<TableRow>
+		
+	<TextView 
+	android:id="@+id/txt_mastery_score" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:textStyle="bold"
+	android:layout_marginLeft="10px" 
+	android:textColor="#000000" 
+	android:text="Mastery Score" />
+	
+	<EditText
+	android:id="@+id/edt_mastery_score" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"/>
+	</TableRow>
+	
+	<TableRow>
+		
+	<TextView 
+	android:id="@+id/txt_publish" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:textStyle="bold"
+	android:layout_marginLeft="10px" 
+	android:textColor="#000000" 
+	android:text="Publish" />
+	
+	<CheckBox
+	android:id="@+id/chk_publish" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"/>
+	</TableRow>
+	
+	<TableRow>
+		
+	<TextView 
+	android:id="@+id/txt_sqobo" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:textStyle="bold"
+	android:layout_marginLeft="10px" 
+	android:textColor="#000000" 
+	android:text="Show questions one by one" />
+	
+	<CheckBox
+	android:id="@+id/chk_sqobo" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"/>
+	</TableRow>
+	
+	<TableRow>
+		
+	<TextView 
+	android:id="@+id/txt_show_given_answers" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:textStyle="bold"
+	android:layout_marginLeft="10px" 
+	android:textColor="#000000" 
+	android:text="Show given answers" />
+	
+	<CheckBox
+	android:id="@+id/chk_show_given_answers" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"/>
+	</TableRow>
+	
+	<TableRow>
+		
+	<TextView 
+	android:id="@+id/txt_show_correct_answers" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:textStyle="bold"
+	android:layout_marginLeft="10px" 
+	android:textColor="#000000" 
+	android:text="Show correct answers" />
+	
+	<CheckBox
+	android:id="@+id/chk_show_correct_answers" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"/>
+	</TableRow>
+	
+	<TableRow>
+		
+	<TextView 
+	android:id="@+id/txt_shuffle_answers" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:textStyle="bold"
+	android:layout_marginLeft="10px" 
+	android:textColor="#000000" 
+	android:text="Show correct answers" />
+	
+	<CheckBox
+	android:id="@+id/chk_shuffle_answers" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"/>
+	</TableRow>
+	
+	<TableRow>
+		
+	<TextView 
+	android:id="@+id/txt_shuffle_questions" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:textStyle="bold"
+	android:layout_marginLeft="10px" 
+	android:textColor="#000000" 
+	android:text="Show correct answers" />
+	
+	<CheckBox
+	android:id="@+id/chk_shuffle_questions" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"/>
+	</TableRow>
+	
+	<TableRow>
+		
+	<TextView 
+	android:id="@+id/txt_display_ordered_list" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:textStyle="bold"
+	android:layout_marginLeft="10px" 
+	android:textColor="#000000" 
+	android:text="Display Ordered List" />
+	
+	<CheckBox
+	android:id="@+id/chk_display_ordered_list" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"/>
+	</TableRow>
+	
+	<TableRow>
+		
+	<TextView 
+	android:id="@+id/txt_test_can_be_paused" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:textStyle="bold"
+	android:layout_marginLeft="10px" 
+	android:textColor="#000000" 
+	android:text="Test can be paused" />
+	
+	<CheckBox
+	android:id="@+id/chk_test_can_be_paused" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"/>
+	</TableRow>
+	
+	<TableRow>
+		
+	<TextView 
+	android:id="@+id/txt_display_weights_during_test" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:textStyle="bold"
+	android:layout_marginLeft="10px" 
+	android:textColor="#000000" 
+	android:text="Display weights during test" />
+	
+	<CheckBox
+	android:id="@+id/chk_display_weights_during_test" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"/>
+	</TableRow>
+	
+	<TableRow>
+		
+	<TextView 
+	android:id="@+id/txt_descriptions" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:textStyle="bold"
+	android:layout_marginLeft="10px" 
+	android:textColor="#000000" 
+	android:text="Description" />
+	
+	<EditText
+	android:id="@+id/chk_descriptions" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"/>
+	</TableRow>
+	
+	<TableRow>
+		
+	<TextView 
+	
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:textStyle="bold"
+	android:layout_marginLeft="10px" 
+	android:textColor="#000000" 
+	android:text="" />
+	
+	<Button
+	android:id="@+id/btn_save" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Save and select questions"/>
+	</TableRow>
+	
+</TableLayout>	
+</LinearLayout>
+</ScrollView>
+				

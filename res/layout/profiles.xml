@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android" 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:background="#FFFFFFFF"
+		>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="vertical"
+    android:layout_height="fill_parent" 
+    android:layout_width="match_parent"
+    android:background="#FFFFFFFF">
+    
+    
+ 
+    <TextView   
+    android:textStyle="bold"   
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_marginLeft="130px"
+    android:textColor="#000000"
+    android:text="Welcome"/>
+    <TextView   
+    android:textStyle="bold"   
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_marginLeft="230px"
+    android:textColor="#000000"
+    android:linksClickable="true"
+    android:text="@string/logout"/>
+    
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/ll"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:weightSum="100">
+      <TableLayout 
+      	android:id="@+id/tbl1" 
+    	android:layout_width="wrap_content" 
+    	android:orientation="vertical"
+		android:layout_height="wrap_content"
+		android:stretchColumns="*" 
+		android:layout_weight="50" 
+		android:layout_marginTop="40px">
+		<TableRow>	
+		<TextView   
+       	android:textStyle="bold"   
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	android:layout_marginLeft="0px"
+    	android:gravity="center"
+    	android:textColor="#FFFFFF"
+    	android:text="Profile"
+    	android:background="#B041FF"/>	
+    	</TableRow>
+    		<TableRow>
+    			<ImageView 
+    				android:id="@+id/img"
+    				android:layout_width="80px"
+    				android:layout_height="80px"/>
+    		</TableRow>
+    	<TableRow>
+    			<TextView   
+    				android:id="@+id/welcome"
+   					android:textStyle="bold"   
+    				android:layout_width="wrap_content" 
+    				android:layout_height="wrap_content" 
+    				android:layout_marginLeft="20px"
+    				android:textColor="#000000"/> 
+    	</TableRow>
+    	<TableRow>
+    
+    			<TextView   
+    				android:id="@+id/vieweditprofile"
+    				android:layout_width="wrap_content" 
+    				android:layout_height="wrap_content" 
+    				android:layout_marginLeft="20px"
+    				android:linksClickable="true"
+    				android:text="@string/view"
+    				android:textColor="#000000"/> 
+    	</TableRow>
+    </TableLayout>
+    
+    	<TableLayout 
+			android:id="@+id/mailtb"
+		 	android:layout_width="wrap_content"
+		  	android:orientation="vertical"
+			android:layout_height="wrap_content" 
+			android:stretchColumns="*"  
+			android:layout_marginTop="40px"  
+			android:layout_weight="50" 
+			android:layout_marginLeft="10px">
+			<TableRow>
+				<TextView 
+					android:id="@+id/reviews"  
+       				android:textStyle="bold"   
+    				android:layout_width="wrap_content" 
+    				android:layout_height="wrap_content" 
+    				android:layout_marginTop="5px"
+    				android:textColor="#000000"
+    				android:linksClickable="true"
+    				android:text="@string/review"/>	
+   			</TableRow>
+			<TableRow>
+				<TextView   
+					android:id="@+id/mailbox"
+       				android:textStyle="bold"   
+    				android:layout_width="wrap_content" 
+   					android:layout_height="wrap_content" 
+   					android:layout_marginTop="10px"
+      				android:textColor="#000000"
+    				android:linksClickable="true"
+    				android:text="@string/mailbox"/>	
+   			</TableRow>
+   			<TableRow>
+				<TextView  
+					android:id="@+id/requests" 
+      				android:textStyle="bold"   
+    				android:layout_width="wrap_content" 
+    				android:layout_height="wrap_content" 
+       				android:textColor="#000000"
+       				android:layout_marginTop="13px"
+    				android:linksClickable="true"
+    				android:text="@string/requests"/>	
+   			</TableRow>
+    		<TableRow>
+				<TextView  
+					android:id="@+id/rewards" 
+       				android:textStyle="bold"   
+    				android:layout_width="wrap_content" 
+    				android:layout_height="wrap_content" 
+    				android:layout_marginTop="15px"
+       				android:textColor="#000000"
+    				android:linksClickable="true"
+    				android:text="@string/rewards"/>	
+   			</TableRow>
+   			<TableRow>
+				<TextView  
+					android:id="@+id/event"
+					android:textStyle="bold"   
+    				android:layout_width="wrap_content" 
+    				android:layout_height="wrap_content" 
+    				android:layout_marginTop="18px"
+       				android:textColor="#000000"
+    				android:linksClickable="true"
+    				android:text="@string/event"/>	
+   			</TableRow>
+   			<!--<TableRow>
+				<TextView  
+					android:id="@+id/event"
+					android:textStyle="bold"   
+    				android:layout_width="wrap_content" 
+    				android:layout_height="wrap_content" 
+    				android:layout_marginTop="18px"
+       				android:textColor="#000000"
+    				android:linksClickable="true"
+    				android:text="More Details"/>	
+   			</TableRow>
+     
+		--></TableLayout>
+		
+	
+	</LinearLayout>
+	<TableLayout 
+    	android:id="@+id/tbl2" 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content" 
+		android:stretchColumns="*"
+		android:layout_marginTop="230px"
+ 		android:layout_marginLeft="0px">
+  	</TableLayout>
+  	<TableLayout 
+    	android:id="@+id/tbl3" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+	    android:stretchColumns="*"  
+	    android:layout_marginTop="380px" 
+	    android:layout_marginLeft="0px"> 
+		  <TableRow>
+				<TextView   
+       				android:textStyle="bold"   
+    				android:layout_width="wrap_content" 
+    				android:layout_height="wrap_content" 
+   					android:layout_marginLeft="0px"
+    				android:textColor="#FF0000"
+    				android:text="My Lessons"/>	
+		  </TableRow>
+	</TableLayout>
+	<TableLayout 
+			android:id="@+id/tbl4"
+		 	android:layout_width="wrap_content"
+		  	android:layout_height="wrap_content" 
+			android:stretchColumns="*"  
+			android:layout_marginTop="480px"  
+			android:layout_marginLeft="0px">
+		<TableRow>
+			<TextView   
+    			android:textStyle="bold"   
+    			android:layout_width="wrap_content" 
+    			android:layout_height="wrap_content" 
+    			android:layout_marginLeft="0px"
+    			android:textColor="#FF0000"
+    			android:text="My Tests"	/>	
+   		</TableRow>
+	</TableLayout>
+	
+	
+	
+	
+	
+    
+	
+	</RelativeLayout>
+	</ScrollView>
+	
+
